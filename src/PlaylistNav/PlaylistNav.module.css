@@ -8,9 +8,28 @@
 /* 1. Typography Styles
 ====================================  */
 
-.navitem {
-    font-family: Arial, Helvetica, sans-serif;
+.headline {
+    font-family: "Yellowtail", serif;
+    font-weight: 600;
+    font-size: 86px;
+    color: #235789
 }
+
+.navitem {
+    font-family: "Albert Sans", serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    color: #235789;
+}
+
 
 /* 2. Desktop Structure Styles
 ====================================  */ 
+
+nav {
+    width: 90%;
+    display: grid;
+    margin: 15px 5vw;
+
+}

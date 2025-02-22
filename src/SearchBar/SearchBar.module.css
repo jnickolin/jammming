@@ -11,5 +11,28 @@
 
 /* 2. Desktop Structure Styles
 ====================================  */
+.siteSearch {
+    width: 90%;
+    height: 50px;
+    margin: 15px 5vw;
+    display: inline-flex;
 
+}
 
+.searchInput {
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.searchInput:hover {
+    background-color: #dddddd;
+}
+
+label {
+    margin-right: -50px;
+    z-index: 1;
+    align-self: center;
+}
